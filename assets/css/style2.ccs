@@ -1,0 +1,30 @@
+body {
+    background-color: black; rgb(40, 40, 40);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: style none;
+}
+.navbar-list{
+list-style:none;
+padding:0;
+margin:0;
+display:flex;
+}
+.navbar-list li{
+flex: 1;
+text-align: center;
+}
+.navbar-list li a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-list a:hover {
+    color:aqua
+}
